@@ -1,5 +1,9 @@
 {
   "name": "hexo-theme-melody",
   "version": "1.2.2",
-  "description": "A Hexo Theme: Butterfly"
+  "description": "A Hexo Theme: Butterfly",
+  "dependencies": {
+    "hexo-renderer-jade": "^0.5.0",
+    "hexo-renderer-stylus": "^1.1.0"
+  }
 }

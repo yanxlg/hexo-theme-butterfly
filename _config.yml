@@ -52,7 +52,7 @@ copy:
   copyright: false
 
 # social settings
-# formal: 
+# formal:
 #   icon: link
 # ---------------
 social:
@@ -93,13 +93,13 @@ mathjax:
 katex:
   enable: false
   cdn:
-    css: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css  
+    css: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
   hide_scrollbar: true
 
 
 ####   Analysis    ####
 # ---------------
-# baidu_analytics: 
+# baidu_analytics:
 
 #Google Analytics
 google_analytics:
@@ -127,6 +127,7 @@ cdn:
     jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
     fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
     js-cookies: https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js
+    busuanzi: //dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js
 
 # Post info settings
 # ---------------
@@ -212,23 +213,23 @@ addtoany:
 # ------------------------------------
 disqus:
   enable: false
-  shortname: 
-  
+  shortname:
+
 # laibili:
   # enable: false
   # uid:
 
 # gitment
   # enable: false
-  # owner: 
-  # repo: 
-  # client_id: 
-  # client_secret: 
+  # owner:
+  # repo:
+  # client_id:
+  # client_secret:
 
 # gitalk:
 #   enable: false
-#   client_id: 
-#   client_secret: 
+#   client_id:
+#   client_secret:
 #   repo:
 #   owner:
 #   admin:
@@ -262,8 +263,8 @@ footer_copyright:
 
 ICP:
   enable: false
-  url: 
-  text: 
+  url:
+  text:
   icon: /img/icp.png
 
 
@@ -285,7 +286,7 @@ baidu_site_verification:
 qihu_site_verification:
 
 
-# 友情鏈接界面設置 
+# 友情鏈接界面設置
 Flink:
   headline: 友情鏈接
   info_headline: 我的Blog資料
@@ -407,7 +408,7 @@ font:
 
 # 網站名字字體
 # 左上角網站名字 主頁居中網站名字
-blog_title_font: 
+blog_title_font:
   font_link: https://fonts.googleapis.com/css?family=Titillium+Web #字體鏈接
   font-family: Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
 
@@ -420,7 +421,7 @@ hr:
 # 主頁subtitle
 # 打字效果
 # (如果有英文逗號' , '，請使用轉義字符 &#44;)
-subtitle: 
+subtitle:
   enable: true
   sub:
     - 今日事&#44;今日畢
