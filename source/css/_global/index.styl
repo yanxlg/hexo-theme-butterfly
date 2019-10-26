@@ -40,7 +40,7 @@ body
   background-attachment: local
   background-repeat: no-repeat
   background-position: center
-  
+
 
 h1,
 h2,
@@ -53,7 +53,7 @@ h6
   color: lighten($font-color, 15%)
   font-weight: bold
 
-  code  
+  code
     font-size: inherit !important
 
 #content-outer
@@ -135,15 +135,15 @@ table
   color: $pale-grey
 
 
-.full_page #site-title, 
-.full_page #site-sub-title, 
+.full_page #site-title,
+.full_page #site-sub-title,
 #site-name,
 #aside_content .author-info__name,
 #aside_content .author-info__description
   font-family: $site-name-font
 
 .is_right
-  text-align: right 
+  text-align: right
 
 .is_left
   text-align: left
@@ -177,6 +177,12 @@ img[src=""],img:not([src])
 
 #body-wrap
   transition: all .3s
+
+.inline-image image
+  display inline-block !important
+
+.hide-alt .img-alt
+  display none !important
 
 @media screen and (max-width: $bg)
   i#toggle-sidebar,
