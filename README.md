@@ -9,13 +9,13 @@
 在你的博客根目录里
 
 ```
-git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
+git clone -b master https://github.com/yanxlg/hexo-theme-butterfly.git themes/Butterfly
 ```
 
 如果想要安裝比較新的dev分支，可以
 
 ```
-git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
+git clone -b dev https://github.com/yanxlg/hexo-theme-butterfly.git themes/Butterfly
 ```
 
 ## 应用主题
