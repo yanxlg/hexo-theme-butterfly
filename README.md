@@ -11,11 +11,16 @@
 ```
 git clone -b master https://github.com/yanxlg/hexo-theme-butterfly.git themes/Butterfly
 ```
-
+```
+git submodule add master https://github.com/yanxlg/hexo-theme-butterfly.git themes/Butterfly
+```
 如果想要安裝比較新的dev分支，可以
 
 ```
 git clone -b dev https://github.com/yanxlg/hexo-theme-butterfly.git themes/Butterfly
+```
+```
+git submodule add dev https://github.com/yanxlg/hexo-theme-butterfly.git themes/Butterfly
 ```
 
 ## 应用主题
@@ -26,6 +31,12 @@ theme: Butterfly
 ```
 
 >如果你没有pug以及stylus的渲染器，请下载安装： npm install hexo-renderer-jade hexo-renderer-stylus --save or yarn add hexo-renderer-jade hexo-renderer-stylus
+
+
+## 更新主题
+```
+git submodule update
+```
 
 ## 文档
 
