@@ -3,10 +3,9 @@
  */
 
 hexo.on('generateBefore', function () {
-  const rootConfig = hexo.config
-  if (hexo.locals.get) {
-    const data = hexo.locals.get('data')
-    data && data.butterfly && (hexo.theme.config = data.butterfly)
+  const rootConfig = hexo.config;
+  if(rootConfig && rootConfig.theme_config){
+    merge(hexo.theme.config, rootConfig.theme_config);
   }
-  hexo.theme.config.rootConfig = rootConfig
-})
+  hexo.theme.config.rootConfig = rootConfig;
+});
