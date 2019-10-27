@@ -278,3 +278,21 @@ blockquote
       &::selection
         background: $highlight-selection
         color: $highlight-foreground
+
+if $highlight_style == "mac"
+  .code_lang
+    right: 30px
+    text-align center
+  .code-area-wrap
+    &:before
+      content: " ";
+      position: absolute
+      -webkit-border-radius: 50%
+      border-radius: 50%
+      background: #fc625d
+      width: 12px
+      height: 12px
+      left: 20px
+      -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b
+      box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b
+      z-index: 2
