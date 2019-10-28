@@ -95,7 +95,7 @@ blockquote
 
       &:after
         position: absolute
-        top: -$highlight-title-height
+        top: -($highlight-title-height)
         z-index: 0
         width: 100%
         height: $highlight-title-height
@@ -301,3 +301,7 @@ if $highlight_style == "mac"
 if hexo-config('highlight_retract') != true
   .code-expand
     display none !important
+
+if hexo-config('highlight_radius')
+  .highlight
+    border-radius hexo-config('highlight_radius')
