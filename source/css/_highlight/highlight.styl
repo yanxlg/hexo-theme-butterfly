@@ -53,7 +53,7 @@ blockquote
   .highlight
     @extend $code-block
     position: relative
-    border-radius: 1px
+    border-radius: hexo-config('highlight_radius')?unquote(hexo-config('highlight_radius')):1px
 
     &:after
       position: absolute
@@ -293,7 +293,7 @@ if $highlight_style == "mac"
       background: #fc625d
       width: 0.6rem
       height: 0.6rem
-      left: 1rem
+      left: hexo-config('highlight_retract') == true ? 2rem:1rem
       top: (($highlight-title-height - 0.6rem)/2)
       box-shadow: 1rem 0 #fdbc40, 2rem 0 #35cd4b
       z-index: 2
@@ -301,7 +301,3 @@ if $highlight_style == "mac"
 if hexo-config('highlight_retract') != true
   .code-expand
     display none !important
-
-if hexo-config('highlight_radius')
-  .highlight
-    border-radius hexo-config('highlight_radius')
