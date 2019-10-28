@@ -3,12 +3,13 @@
 @require "diff"
 
 wordWrap = !hexo-config("rootConfig.highlight.line_number") && hexo-config("code_word_wrap")
+$highlight-title-height = 1.4rem
 
 $code-block
   overflow: auto
   margin: 1rem 0
   padding: 0
-  padding-top: 1.4rem
+  padding-top: $highlight-title-height
   background: $highlight-background
   color: $highlight-foreground
   font-size: $code-font-size
@@ -59,7 +60,7 @@ blockquote
       top: 0
       z-index: 0
       min-width: 100%
-      height: 1.4rem
+      height: $highlight-title-height
       background: darken($highlight-background, 5)
       content: ""
 
@@ -89,15 +90,15 @@ blockquote
       width: auto
       border: none
 
-      if hexo-config('highlight_shrink') == true
+      if hexo-config('highlight_shrink') == true && hexo-config('highlight_retract') == true
         display: none
 
       &:after
         position: absolute
-        top: -1.4rem
+        top: -$highlight-title-height
         z-index: 0
         width: 100%
-        height: 1.4rem
+        height: $highlight-title-height
         background: darken($highlight-background, 5)
         content: ""
 
@@ -290,9 +291,13 @@ if $highlight_style == "mac"
       -webkit-border-radius: 50%
       border-radius: 50%
       background: #fc625d
-      width: 12px
-      height: 12px
-      left: 20px
-      -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b
-      box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b
+      width: 0.6rem
+      height: 0.6rem
+      left: 1rem
+      top: (($highlight-title-height - 0.6rem)/2)
+      box-shadow: 1rem 0 #fdbc40, 2rem 0 #35cd4b
       z-index: 2
+
+if hexo-config('highlight_retract') != true
+  .code-expand
+    display none !important
