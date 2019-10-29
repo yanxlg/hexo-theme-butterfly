@@ -1,10 +1,10 @@
 
 # Main menu navigation
 # ---------------
-# format: xxx: 連結 || icon
+# format: xxx: 链接 || icon
 # sub-menu
 # xxx || icon:
-#   xxx || 連結 || icon
+#   xxx || 链接 || icon
 menu:
   Home: / || fa fa-home
   Archives: /archives/ || fa fa-archive
@@ -48,10 +48,10 @@ highlight_radius: 5px; # 代码框圆角
 code_word_wrap: false
 
 # copy setting
-# 是否禁止複製（如果禁止，highlight_copy的功能將無效)
-# copyright 複製的内容後面加上版權信息
+# 是否禁止复制（如果禁止，highlight_copy的功能將无效)
+# copyright 复制的内容后面加上版权信息
 copy:
-  enable: false  # true 開啓 / false 禁止
+  enable: false  # true 开启 / false 禁止
   copyright: false
 
 # social settings
@@ -184,7 +184,7 @@ post_copyright:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-# 自動節選
+# 自动筛选
 auto_excerpt:
   enable: true
   length: 150
@@ -271,7 +271,7 @@ ICP:
   icon: /img/icp.png
 
 
-####    站長驗證    ####
+####    站长验证    ####
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
 google_site_verification:
@@ -289,17 +289,17 @@ baidu_site_verification:
 qihu_site_verification:
 
 
-# 友情鏈接界面設置
+# 友情链接界面设置
 Flink:
-  headline: 友情鏈接
-  info_headline: 我的Blog資料
+  headline: 友情链接
+  info_headline: 我的Blog资料
   name: Blog 名字： JerryC
   address: Blog 地址： https://jerryc.me/
-  avatar: Blog 頭像： https://jerryc.me/img/avatar.png
-  info: Blog 簡介： 今日事,今日畢
-  comment: 如果需要交換友鏈,請留言
+  avatar: Blog 头像： https://jerryc.me/img/avatar.png
+  info: Blog 简洁： 今日事,今日毕
+  comment: 如果需要交换友链,请留言
 
-# 打賞按鈕
+# 打赏按鈕
 reward:
   enable: true
   QR_code:
@@ -308,12 +308,12 @@ reward:
         text: 微信
     - itemlist:
         img: /img/alipay.jpg
-        text: 支付寶
+        text: 支付宝
 
-# 推薦文章
+# 推荐文章
 related_post:
   enable: true
-  limit: 6 # 顯示推薦文章數目
+  limit: 6 # 展示推荐文章数目
 
 ####    美化/效果    ####
 #--------------------------------
@@ -333,28 +333,28 @@ related_post:
 #   read-mode-bg_color: '#FAF9DE'
 #   inline-code-color: '#F47466'
 
-# 主頁設置
-# 默認top_img全屏，site_info在中間
-# 使用默認, 都無需填寫（建議默認）
-index_site_info_top:   #主頁標題距離頂部距離  例如 300px/300em/300rem/10%
-index_top_img_height:  #主頁top_img高度 例如 300px/300em/300rem  不能使用百分比
+# 主页设置
+# 默认top_img全屏，site_info在中间
+# 使用默认, 都无需填写（建议默认）
+index_site_info_top:   #主页标题举例顶部举例  例如 300px/300em/300rem/10%
+index_top_img_height:  #主页top_img高度 例如 300px/300em/300rem  不能使用百分比
 
 
-# category和tag頁的UI設置
-# index 值代表 UI將與首頁的UI一樣
-# 默認跟archives頁面UI一樣
+# category和tag页的UI设置
+# index 值代表 UI将与首页的UI一樣
+# 默认跟archives页面UI一樣
 category_ui:  # 留空或index
 tag_ui:  # 留空或index
 
 
-# 設置網站背景
-# 可設置圖片 或者 顔色
-# 圖片格式 background: url(http://xxxxxx.com/xxx.jpg)
+# 设置网站背景
+# 可设置图片 或者 颜色
+# 图片格式 background: url(http://xxxxxx.com/xxx.jpg)
 # 顔色 background: '#49B202'
-# 留空 顯示白色
+# 留空 展示白色
 background:
 
-# footer是否顯示圖片背景(與top_img一致)
+# footer是否展示图片背景(与top_img一致)
 footer_bg: false
 
 
@@ -367,7 +367,7 @@ canvas_ribbon:
   zIndex: -1
   click_to_change: false
 
-# 動態彩帶
+# 动能彩帶
 canvas_ribbon_piao:
   enable: false
 
@@ -385,45 +385,45 @@ canvas_nest:
 activate_power_mode:
   enable: false
 
-# 鼠標點擊效果
+# 鼠标点击效果
 fireworks:
   enable: false
 
-# 頭像會一直轉圈
+# 头像会一直转圈
 avatar_effect: false
 
-# 網站顯示模式
-# day 默認模式
-# night 黑暗模式（不建議）
+# 网站展示模式
+# day 默认模式
+# night 黑暗模式（不建议）
 display_mode: day
 
-# 美化post頁顯示
+# 美化post页展示
 post_beautify:
   enable: false
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: "#F47466"
 
-# 全局字體
+# 全局自定义字体
 font:
   enable: false
   font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, MicrMicrosoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
   code-font: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace, Helvetica Neue For Number
 
-# 網站名字字體
-# 左上角網站名字 主頁居中網站名字
+# 网站名字字体
+# 左上角网站名 主页居中网站名
 blog_title_font:
   font_link: https://fonts.googleapis.com/css?family=Titillium+Web #字體鏈接
   font-family: Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
 
-# 水平分隔綫
+# 水平分割线
 hr:
   enable: false
-  icon: '\f21c' #fontawesome上圖標的Unicode
+  icon: '\f21c' #fontawesome上图标的Unicode
   icon-top: -20px
 
-# 主頁subtitle
+# 主页subtitle
 # 打字效果
-# (如果有英文逗號' , '，請使用轉義字符 &#44;)
+# (如果有英文逗号' , '，请使用转义字符 &#44;)
 subtitle:
   enable: true
   sub:
@@ -432,9 +432,9 @@ subtitle:
 
 
 
-####    側邊欄    ####
+####    侧边栏    ####
 #-------------------------------------
-# 側邊欄顯示設置
+# 侧边栏展开设置
 aside:
   position: right # left or right
   card_author: true
@@ -445,48 +445,48 @@ aside:
   card_archives: true
   card_webinfo: true
 
-# 網站公告
+# 网站公告
 announcement:
   content: 感謝訪問本站，若喜歡請收藏 ^_^
 
 # busuanzi count for PV / UV in site
-# 訪問人數
+# 访问人数
 busuanzi:
   site_uv: true
   site_pv: true
   page_pv: true
 
-# 網頁開通時間
-# 格式: 月/日/年 時間
-# 也可以寫成 年/月/日 時間
+# 网页开通时间
+# 格式: 月/日/年 时间
+# 也可以改为 年/月/日 时间
 runtimeshow:
   enable: true
   start_date: 6/7/2018 00:00:00
 
 
-####   右下角按鈕  ####
+####   右下角按钮  ####
 #----------------------------------------------
-# 簡繁轉換
+# 简繁转换
 translate:
   enable: true
-  # 默認按鈕顯示文字
+  # 默认按钮展示文字
   default: 繁
-  #网站默认语言，1: 繁體中文, 2: 简体中文
+  #网站默认语言，1: 繁体中文, 2: 简体中文
   defaultEncoding: 2
   #延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
   translateDelay: 0
   #博客网址
   cookieDomain: "https://xxx/"
-  #當文字是簡體時，按鈕顯示的文字
+  #当文字是简体时，按鈕展示的文字
   msgToTraditionalChinese: "繁"
-  #當文字是繁體時，按鈕顯示的文字
+  #当文字是繁体时，按鈕展示的文字
   msgToSimplifiedChinese: "简"
 
-# 夜間模式
+# 夜间模式
 nightshift:
   enable: true
 
-#閲讀模式
+#阅读模式
 readmode:
   enable: true
 
@@ -499,7 +499,7 @@ baidu_push:
   enable: false
 
 # https://instant.page/
-# prefetch預加載
+# prefetch预加载
 instantpage:
   enable: true
 
@@ -518,21 +518,21 @@ note:
   # Offset also applied to label tag variables. This option can work with disabled note tag.
   light_bg_offset: 0
 
-# 圖片懶加載
+# 图片懒加载
 lazyload:
   enable: true
   script: https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js
 
-# 避免重複網址分散seo
+# 避免重复网址分散seo
 canonical: true
 
-# 禁止百度轉碼
+# 禁止百度转码
 disable_baidu_transformation: true
 
-# twitter分享自動帶上樣式
+# twitter分享自动帶上样式
 # https://i.loli.net/2019/09/08/qm3RfvUCKbct1Wz.png
 twitter_meta: true
 
-# facebook QQ 等 分享自動帶上樣式
+# facebook QQ 等 分享自动帶上样式
 # https://i.loli.net/2019/09/08/2wbFJEKloisRvhj.png
 Open_Graph_meta: true
