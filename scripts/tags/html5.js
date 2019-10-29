@@ -14,5 +14,5 @@ function html5Tag (tagName) {
 }
 
 ["div","img","span","section","dt","dl","dd","ul","li","iframe","header","main","footer"].map((tagName)=>{
-    hexo.extend.tag.register(tagName, html5Tag(tagName), { ends: false });
+    hexo.extend.tag.register(tagName, html5Tag(tagName), { ends: true });
 });
