@@ -130,7 +130,7 @@ cdn:
     jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
     fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
     js-cookies: https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js
-    busuanzi: //dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js
+    busuanzi: http://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
 # Post info settings
 # ---------------

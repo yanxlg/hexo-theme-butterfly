@@ -14,13 +14,16 @@
       span= _p('footer.theme') + ' '
       a(href='https://github.com/jerryc127/hexo-theme-butterfly')
         span Butterfly
+      span.footer-separator |
+      span(id="busuanzi_container_site_pv")
+        | 本站总访问量
+        span(id="busuanzi_value_site_pv")
+        | 次
   if theme.footer_custom_text
     .footer_custom_text!=`${theme.footer_custom_text}`
   if theme.ICP.enable
     .icp
-      a(href=theme.ICP.url)
-        if theme.ICP.icon
-          img.icp-icon(src=url_for(theme.ICP.icon))
-        span=theme.ICP.text
-  span 本站访客数
-    span
+    a(href=theme.ICP.url)
+    if theme.ICP.icon
+    img.icp-icon(src=url_for(theme.ICP.icon))
+    span=theme.ICP.text
