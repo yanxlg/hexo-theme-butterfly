@@ -1,8 +1,8 @@
 if hexo-config("post_beautify.enable")
   headStyle(fontsize)
     padding-left: unit(fontsize + 0.3, "rem")
-  
-    code 
+
+    code
       font-size: unit(fontsize, "rem")
 
     &:before
@@ -178,9 +178,9 @@ if hexo-config("post_beautify.enable")
         margin: 0.2rem 0
         padding: 0.1rem 0.5rem 0.1rem 1.5rem
 
-        &:hover
-          &:before
-            transform: rotate(360deg)
+        //&:hover
+        //  &:before
+        //    transform: rotate(360deg)
 
         &:before
           position: absolute
@@ -376,13 +376,13 @@ img
 @media screen and (min-width: $md)
   .layout
     width: $content-large-width
-        
+
 .katex-wrap
   overflow: auto
   if hexo-config("katex") && hexo-config("katex.hide_scrollbar")
     &::-webkit-scrollbar
       display: none
-      
+
 
 // 文章字體
 #post-content p
@@ -390,16 +390,16 @@ img
 
 
 #post-content ol,
-#post-content ul 
+#post-content ul
   font-size: 1em
 
 
 @media screen and (max-width: 1024px)
-  .layout 
+  .layout
     margin: 0 15px
     width: auto
 
-.layout_post 
+.layout_post
   padding: 50px
   box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06)
   border-radius: 8px
@@ -408,9 +408,9 @@ img
   margin-top: 40px
   margin-bottom: 40px
 
-  &:hover 
+  &:hover
     box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15)
-  
+
   img
     display:block
 
@@ -437,40 +437,40 @@ img
 
       .social-share a
         margin: 0 4px;
-    
+
 
   #post
     a
       text-decoration: none
       color: $light-blue
-    
+
     h1
       margin: 0.8rem 0
-    
+
     h2,
     h3,
     h4,
     h5,
     h6
       margin: 1rem 0 0.5rem 0
-    
+
     img
-      margin: 0 auto 0.8rem 
-        
+      margin: 0 auto 0.8rem
+
     blockquote,
     p
       margin: 0 0 0.8rem 0
-      
+
 
     table,.note
       margin: 0.8rem 0
-    
+
     figure
       margin: 0.8rem 0
 
       table
         margin: 0
-    
+
     blockquote
       p
         margin: 0.5rem 0
