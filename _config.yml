@@ -537,5 +537,5 @@ twitter_meta: true
 # https://i.loli.net/2019/09/08/2wbFJEKloisRvhj.png
 Open_Graph_meta: true
 
-// 是否打印页面performance
+# 是否打印页面performance
 performance: true
