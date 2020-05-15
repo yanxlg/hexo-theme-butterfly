@@ -76,16 +76,10 @@ beautify()
     ul
       padding-left: .5rem
 
-<<<<<<< HEAD
-        //&:hover
-        //  &:before
-        //    transform: rotate(360deg)
-=======
     li
       position: relative
       margin: .2rem 0
       padding: .1rem .5rem .1rem 1.5rem
->>>>>>> bad24849bdc4a307c32b8fd849b8fec2effe6c23
 
       &:hover
         &:before
@@ -117,20 +111,7 @@ beautify()
     > li
       &:hover
         &:before
-<<<<<<< HEAD
-          margin-top: 0.3rem
-          width: w = 1rem
-          height: h = w
-          border-radius: 0.5 * w
-          content: counter(li)
-          counter-increment: li
-          text-align: center
-          font-size: 0.6rem
-          line-height: h
-          font-style italic
-=======
           border-color: $theme-button-hover-color
->>>>>>> bad24849bdc4a307c32b8fd849b8fec2effe6c23
 
       &:before
         $w = .3rem
@@ -326,21 +307,8 @@ img
       background: $white
       content: ''
 
-<<<<<<< HEAD
-@media screen and (min-width: $md)
-  .layout
-    width: $content-large-width
-
-.katex-wrap
-  overflow: auto
-  if hexo-config("katex") && hexo-config("katex.hide_scrollbar")
-    &::-webkit-scrollbar
-      display: none
-
-=======
     &:hover
       box-shadow: 0 0 8px 0 rgba(232, 237, 250, .6), 0 2px 4px 0 rgba(232, 237, 250, .5)
->>>>>>> bad24849bdc4a307c32b8fd849b8fec2effe6c23
 
     .post-copyright
       &-meta
@@ -350,38 +318,13 @@ img
       &-info
         padding-left: .3rem
 
-<<<<<<< HEAD
-#post-content ol,
-#post-content ul
-  font-size: 1em
-=======
         a
           text-decoration: underline
           word-break: break-word
->>>>>>> bad24849bdc4a307c32b8fd849b8fec2effe6c23
 
           &:hover
             text-decoration: none
 
-<<<<<<< HEAD
-@media screen and (max-width: 1024px)
-  .layout
-    margin: 0 15px
-    width: auto
-
-.layout_post
-  padding: 50px
-  box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06)
-  border-radius: 8px
-  transition: all 0.3s
-  background: #fff
-  margin-top: 40px
-  margin-bottom: 40px
-
-  &:hover
-    box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15)
-
-=======
 #article-container
   a
     color: $theme-link-color
@@ -389,7 +332,6 @@ img
     &:hover
       text-decoration: underline
 
->>>>>>> bad24849bdc4a307c32b8fd849b8fec2effe6c23
   img
     margin: 0 auto .8rem
 
@@ -407,53 +349,6 @@ img
     & > #post
       padding: 1.8rem .7rem
 
-<<<<<<< HEAD
-      .social-share .social-share-icon
-        width: 26px;
-        height: 26px;
-        font-size: 15px;
-        line-height: 25px;
-
-      .social-share a
-        margin: 0 4px;
-
-
-  #post
-    a
-      text-decoration: none
-      color: $light-blue
-
-    h1
-      margin: 0.8rem 0
-
-    h2,
-    h3,
-    h4,
-    h5,
-    h6
-      margin: 1rem 0 0.5rem 0
-
-    img
-      margin: 0 auto 0.8rem
-
-    blockquote,
-    p
-      margin: 0 0 0.8rem 0
-
-
-    table,.note
-      margin: 0.8rem 0
-
-    figure
-      margin: 0.8rem 0
-
-      table
-        margin: 0
-
-    blockquote
-      p
-        margin: 0.5rem 0
-=======
 // adjust the layout width in big screen
 @media screen and (min-width: $lr)
   .layout_post
@@ -464,4 +359,3 @@ img
 
     &.hide-aside
       max-width: 1300px
->>>>>>> bad24849bdc4a307c32b8fd849b8fec2effe6c23
