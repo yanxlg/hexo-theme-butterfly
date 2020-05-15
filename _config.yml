@@ -427,8 +427,8 @@ hr:
 subtitle:
   enable: true
   sub:
-    - 今日事&#44;今日畢
-    - Never put off till tomorrow what you can do today
+   # - 今日事&#44;今日畢
+   # - Never put off till tomorrow what you can do today
 
 
 
