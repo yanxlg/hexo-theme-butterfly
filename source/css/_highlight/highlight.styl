@@ -4,6 +4,9 @@
 
 wordWrap = !hexo-config('rootConfig.highlight.line_number') && hexo-config('code_word_wrap')
 
+// custom
+$highlight-title-height = 1.4rem
+
 $code-block
   overflow: auto
   margin: 0 0 1rem
@@ -72,6 +75,8 @@ blockquote
     @extend $code-block
     position: relative
     border-radius: hexo-config('highlight_radius')?unquote(hexo-config('highlight_radius')):1px
+    border-top-left-radius: 0 // 新增
+    border-top-right-radius: 0// 新增
 
     if hexo-config('highlight_shrink') == true
       display: none
@@ -271,3 +276,28 @@ blockquote
   background: darken($highlight-background, 5)
   color: $highlight-foreground
   font-size: 14px
+  border-radius: hexo-config('highlight_radius')?unquote(hexo-config('highlight_radius')):1px // 新增
+  border-bottom-left-radius:0 // 新增
+  border-bottom-right-radius:0 // 新增
+
+if $highlight_style == "mac"
+  .code-lang
+    right: 30px
+    text-align center
+  .code-area-wrap
+    &:before
+      content: " ";
+      position: absolute
+      -webkit-border-radius: 50%
+      border-radius: 50%
+      background: #fc625d
+      width: 0.6rem
+      height: 0.6rem
+      left: hexo-config('highlight_retract') == true ? 2rem:1rem
+      top: (($highlight-title-height - 0.6rem)/2)
+      box-shadow: 1rem 0 #fdbc40, 2rem 0 #35cd4b
+      z-index: 2
+// 自定义样式
+if hexo-config('highlight_retract') != true
+  .code-expand
+    display none !important
