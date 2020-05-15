@@ -1,14 +1,18 @@
 {
-  "name": "hexo-theme-melody",
-  "version": "1.2.2",
-  "description": "A Hexo Theme: Butterfly",
-  "dependencies": {
-    "hexo-renderer-jade": "^0.5.0",
-    "hexo-renderer-stylus": "^1.1.0",
-    "lodash.merge": "^4.6.2"
+  "name": "hexo-theme-butterfly",
+  "version": "2.3.5",
+  "private": true,
+  "engines": {
+    "node": ">=8.10.0"
   },
-  "devDependencies": {
-    "js-yaml": "^3.13.1",
-    "hexo-fs": "^2.0.0"
-  }
+  "description": "A Simple and Card UI Design theme for Hexo",
+  "keywords": [
+    "hexo",
+    "theme",
+    "butterfly",
+    "Card UI Design"
+  ],
+  "repository": "https://github.com/jerryc127/hexo-theme-butterfly.git",
+  "author": "Jerry <wong@jerryc.me>",
+  "license": "MIT"
 }
