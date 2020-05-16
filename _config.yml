@@ -474,9 +474,6 @@ fireworks:
 click_heart:
   enable: false
 
-# 头像转圈
-avatar_effect: false
-
 # 點擊出現文字，文字可自行修改
 ClickShowText:
   enable: false
